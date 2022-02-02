@@ -154,4 +154,4 @@ FROM s390x/ubuntu:18.04
       # 18096: Eventing (SSL) (5.5+)
 EXPOSE 8091 8092 8093 8094 8095 8096 11207 11210 11211 18091 18092 18093 18094 18095 18096
 # Start the server
-      CMD $SOURCE_ROOT/couchbase/install/bin/couchbase-server -- -noinput
+CMD $SOURCE_ROOT/couchbase/install/bin/couchbase-server -- -noinput
